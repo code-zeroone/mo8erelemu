@@ -12,7 +12,7 @@ rm -f /tmp/enigma2-plugin-softcams-gosatplus_all.ipk
 echo '=================================================='
 echo '           INSTALL PLUGIN\n               '
 echo '=================================================='
-wget --no-check-certificate  -q  "dl.dropboxusercontent.com/scl/fi/xws95ncdu6pgpob07zdr3/GosatPlus_plugin.tar.gz?rlkey=5yqfyftm6vt3b0141w9cqdhqf&st=mi4cm2fh&dl=0" -O /tmp/GosatPlus_plugin.tar.gz
+wget --no-check-certificate  -q  "dl.dropboxusercontent.com/scl/fi/c2dgmne5zs1icoowto5ug/enigma2-plugin-softcams-gosatplus_all.ipk?rlkey=36lsj96fu347g5z0wijvr29mf&st=pgv9cuch&dl=0" -O /tmp/GosatPlus_plugin.tar.gz
 tar -xf /tmp/GosatPlus_plugin.tar.gz -C /tmp/
 rm -r /usr/lib/enigma2/python/Plugins/Extensions/GosatPlus
 cp -r /tmp/GosatPlus /usr/lib/enigma2/python/Plugins/Extensions
