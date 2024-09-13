@@ -7,7 +7,7 @@ echo '======================================================'
 opkg install libcurl4
 wget --no-check-certificate  -q  "dl.dropboxusercontent.com/scl/fi/c2dgmne5zs1icoowto5ug/enigma2-plugin-softcams-gosatplus_all.ipk?rlkey=36lsj96fu347g5z0wijvr29mf&st=pgv9cuch&dl=0" -O /tmp/enigma2-plugin-softcams-gosatplus_all.ipk
 opkg remove  --force-remove --force-depends enigma2-plugin-softcams-gosatplus
-opkg install --force-reinstall --force-depends /tmp/enigma2-plugin-softcams-gosatplus_all.ipk
+opkg install --force-overwrite /tmp/enigma2-plugin-softcams-gosatplus_all.ipk
 rm -f /tmp/enigma2-plugin-softcams-gosatplus_all.ipk
 echo '=================================================='
 echo '           INSTALL PLUGIN\n               '
